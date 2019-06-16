@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: url("../fonts/Noto Kufi Arabic.ttf");
+}
+
+*:not(i) {
+  font-family: Noto Kufi Arabic, arial!important;
+}
+
+body {
+  background-color: #f3f3f3!important;
+}
+
+nav {
+  background-color: #ffffff!important;
+}
+
+i {
+  color: #27A360
+}
+
+ul li {
+  margin: 0 6px;
+}
+
+nav i {
+  margin: 0 4px!important;
+}
+
+nav button {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px!important
+}
+.login {
+  width: 400px;
+  padding: 10px;
+  margin: 70px auto;
+}
+span {
+  color: red;
+}
+form {
+  width: 400px;
+  margin: 30px auto;
+  text-align: right;
+}
+.login_btn {
+  margin: 30px 160px;
+  cursor: pointer;
+}
+.obligue {
+  text-align: center;
+}

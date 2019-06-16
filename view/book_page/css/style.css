@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: url("../fonts/Noto Kufi Arabic.ttf");
+}
+
+*:not(i) {
+  font-family: Noto Kufi Arabic, arial!important;
+}
+
+body {
+  background-color: #f3f3f3!important;
+}
+
+nav {
+  background-color: #ffffff!important;
+}
+
+i {
+  color: #27A360
+}
+
+ul li {
+  margin: 0 6px;
+}
+
+nav i {
+  margin: 0 4px!important;
+}
+
+nav button {
+  cursor: pointer;
+}
+
+.users {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.users button {
+  cursor: pointer;
+}
+.book_infos {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+  width: 650px;
+  height: 520px;
+  color: black!important;
+  border-radius: 10px
+}
+.book_infos img {
+  height: 340px;
+  margin: 10px;
+  border-radius: 5px
+}
+.book_infos h2 {
+  position: relative;
+  top: 54px;
+  right: 262px;
+  color: #155724
+}
+.book_infos b {
+  position: relative;
+  bottom: 100px;
+  right: 25px;
+}
+.book_infos p {
+  width: 300px;
+  position: relative;
+  bottom: 239px;
+  right: 265px;
+}
+.book_infos button {
+  position: relative;
+  bottom: 184px;
+  right: 240px;
+  cursor: pointer;
+}
+.book_infos span {
+  position: relative;
+  bottom: 251px;
+  right: 268px;
+  color: #22313F;
+  font-weight: bold;
+}
+.book_infos .volume, i {
+  color: #22313F;
+  font-weight: bold;
+}
+.book_infos button i {
+  color: white;
+}
+.book_infos b i {
+  color: black;
+}
+.book_infos a:hover {
+  text-decoration: none;
+}
+.book_infos a {
+  position: relative;
+  bottom: 144px;
+  left: 63px;
+  font-size: 13px;
+  color: #FD5B03!important
+}
+.book_infos a i {
+  color: #FD5B03
+}
+
+.comment {
+  float: right;
+  text-align: right;
+  margin: 0px 31px
+}
+.comment i {
+  color: white
+}
+.comment span:not(.name_commt) {
+  font-size: 22px;
+  padding: 0 240px;
+}
+.comment img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px
+}
+.comment small {
+  font-size: 13px
+}
+.comment li {
+  list-style: none;
+  font-weight: bold;
+  position: relative;
+  bottom: 55px;
+  right: 72px;
+}
+.name_commt {
+  position: relative;
+  bottom: 58px;
+  right: 79px;
+  padding: 4px 14px!important;
+  width: 187px;
+}
+textarea {
+  min-height: 84px;
+  max-height: 277px;
+}
+.comment button {
+  margin: 10px 0;
+}
+.all_comment {
+  width:500px;
+  height: 200px;
+  text-align: right;
+  margin: 0 30px;
+  display: block;
+  position: relative;
+  top: 40px;
+  background: rgb(255, 255, 255);
+  clear: both;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solidrgb(241, 241, 241);
+  margin-bottom: 10px
+}
+.all_comment i {
+  color: white
+}
+
+.all_comment .clock {
+  color: #FD5B03
+}
+
+.all_comment p {
+  font-size: 12px;
+  margin: -20px 4px;
+}
+.all_comment .up {
+  position: relative;
+  right: 10px;
+  top: 14px;
+}
+.all_comment .down {
+  position: relative;
+  top: 51px;
+  left: 12px;
+}
+.all_comment img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 33px;
+}
+.all_comment .name_commt{
+  position: relative;
+  top: -27px;
+  right: 115px;
+  text-align: right;
+}
+.all_comment .classment {
+  position: absolute;
+  right: 9px;
+  top: 53px;
+  color: green;
+  font-weight: bold
+
+}
+
+.date_publishing {
+  font-size: 13px;
+  color: #FD5B03!important
+}
+.comment_write {
+  margin: -50px 0;   
+}
+
+.me span {
+  color: red;
+}
+.comment_pub {
+  position: relative;
+  bottom: 30px;
+}
+
+.replay {
+  cursor: pointer;
+  margin: 26px -8px;
+}

@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: url("../fonts/Noto Kufi Arabic.ttf");
+}
+
+*:not(i) {
+  font-family: Noto Kufi Arabic, arial!important;
+}
+
+body {
+  background-color: #f3f3f3!important;
+}
+
+nav {
+  background-color: #ffffff!important;
+}
+
+i {
+  color: #27A360
+}
+ul {
+  list-style: none;
+  text-align: right;
+  margin-top: 40px!important;
+  margin-right: -37px;
+}
+ul li {
+  margin: 15px 0px;
+  padding: 10px 22px;
+}
+
+.main_sidebar{
+  width: 300px;
+  height: 100vh;
+  background: #555;
+  margin: 0;
+  padding: 10px;
+}
+
+.main_sidebar img{
+  width: 70px;
+  height: 70px;
+  margin: 0 100px;
+}
+
+.main_sidebar h5{
+  text-align: center;
+  color: rgb(236, 236, 236);
+  margin-top: 10px
+}
+.main_sidebar small{
+  text-align: center;
+  color: rgb(145, 174, 224);
+  margin: -5px 126px;
+  font-size: 14px
+}
+
+
+.main_sidebar ul li a, i{
+  color: white!important;
+  outline: none
+}
+
+.main_sidebar ul li a:hover{
+  text-decoration: none;
+  background: #999
+}
+.main_sidebar ul li:hover{
+  background: #999
+}
+a.toggle {
+  background: rgb(144, 144, 144);
+  padding: 6px 17px;
+  position: absolute;
+  top: 0px;
+  right: 252px;
+}
+.main_sidebar .toggle i {
+  position: relative;
+  left: 10px;
+  color: rgb(199, 199, 199)!important
+}
+.home_statics {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  text-align: center
+}
+
+
+.home_statics div {
+  overflow: hidden;
+  width: 220px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center
+}
+
+.home_statics h3 {
+  font-size: 18px;
+  color: white
+}
+
+.home_statics p {
+  color: white;
+  font-weight: bold
+}
+.quick_links {
+  position: absolute;
+  top: 270px;
+  left: 30px
+}
+.quick_links  a {
+  overflow: hidden;
+  width: 180px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 300ms;
+  font-size: 13px;
+  color: #FFF;
+  text-align: center
+}
+.quick_links a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #222 !important;  
+}
+
+.quick_links  h6 {
+  margin: 8px;
+}
+nav {
+  position: relative;
+  bottom: 700px;
+  right: 300px;
+  width: 1048px
+}
+nav a {
+  color: #555;
+  }
+nav a:hover {
+text-decoration: none;
+color: #555;
+}
+.user_info {
+  background-color: #e64759;
+  color: #fff;
+  padding: 7px;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 #74242d;
+  width: 180px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.user_info img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%
+}
+.user_info a {
+  color: white
+}
+.user_info a:hover {
+  color: white
+}

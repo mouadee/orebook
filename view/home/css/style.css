@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: url("../fonts/Noto Kufi Arabic.ttf");
+}
+
+*:not(i) {
+  font-family: Noto Kufi Arabic, arial!important;
+}
+
+body {
+  background-color: #f3f3f3!important;
+}
+
+nav {
+  background-color: #ffffff!important;
+}
+
+i {
+  color: #27A360
+}
+
+ul li {
+  margin: 0 6px;
+}
+
+nav i {
+  margin: 0 4px!important;
+}
+
+nav button {
+  cursor: pointer;
+}
+
+.users {
+  text-align: center;
+  margin: 50px auto;
+}
+.users a {
+  color: white
+}
+.users a:hover {
+  text-decoration: none;
+  color: white
+}
+.users button {
+  cursor: pointer;
+}
+
+.new-book {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.new-book h2 {
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 200px!important;
+  height: 560px;
+  text-align: center;
+  margin: 25px;
+  display: inline-block!important;
+}
+.card img {
+  height: 300px;
+}
+
+.card p {
+  font-size: 14px
+}
+
+.book-new {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 0;
+}
